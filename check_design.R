@@ -6,7 +6,7 @@ source("utilities_tidy.R")
 # 
 # 1_1) load the data save into data
 datos <- 
-  read_excel("D:\\OneDrive - CGIAR\\Data Analysis\\experimental_desing\\data\\202219DMF1C1_cere.xlsx", 
+  read_excel("data/202219DMF1C1_cere.xlsx", 
              sheet = "Data") # Data for testing
 
 datos <- 
