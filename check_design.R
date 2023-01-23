@@ -3,7 +3,7 @@ library(pacman)
 pacman::p_load(tidyverse, readxl, yarrr, dplyr, knitr, rmarkdown, statgenSTA, statgenGxE, openxlsx, QBMS)
 source("utilities_tidy.R")
 
-
+# 
 # 1_1) load the data save into data
 library(readxl)
 datos <- read_excel("D:\\OneDrive - CGIAR\\Yuca Investigacion\\Mejoramiento\\YG2023 (Siembras 2022)\\CassavaBase\\Design\\202295DVGXE_cere_DISENO.xls")
