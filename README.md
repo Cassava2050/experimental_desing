@@ -15,6 +15,8 @@ carried out in:
 
 ## Plot layout
 
+the following layout shows the replications, check locations and row-col coordinates.
+
 ![](https://github.com/Cassava2050/experimental_desing/blob/main/layout.png)
 
 
