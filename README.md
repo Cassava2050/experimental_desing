@@ -1,5 +1,4 @@
 # Check trial experimental desing
-## _The Last Markdown Editor, Ever_
 
 This repo contains the code needed for check experimental design data of trials
 carried out in: 
