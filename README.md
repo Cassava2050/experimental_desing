@@ -15,7 +15,7 @@ carried out in:
 
 ## Plot layout
 
-![](experimental_design/layout.png)
+![](https://github.com/Cassava2050/experimental_desing/blob/main/layout.png)
 
 
 
