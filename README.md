@@ -12,3 +12,14 @@ carried out in:
 -- Checks for duplicates in rows and columns
 - plot_number_dup()
 -- Checks for duplicates in plot_number column
+
+## Plot layout
+
+![](experimental_design/layout.png)
+
+
+
+
+
+
+

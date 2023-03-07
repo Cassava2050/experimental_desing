@@ -38,7 +38,7 @@ colnames(datos)
 
 # Select colnames required by Cassava Base --------------------------------
 
-CB_colnames <- colnames(datos)[1:12]
+CB_colnames <- colnames(all_of(datos))[1:12]
 CB_colnames
 
 
@@ -79,10 +79,10 @@ plot_number_dup(datos_design)
 
 ggplot(datos_design, aes(x = factor(col_number), y = factor(row_number),
                          fill= factor(rep_number))) +
-  geom_tile(color="black", size=0.5) +           # Black border on tiles
+  geom_tile(color="black", linewidth=0.5) +           # Black border on tiles
   labs(x="col_number", y="row_number", fill = "rep") +
   coord_fixed() +                                # Square tiles
-  theme_minimal() +  
+  theme_xiaofei() +  
   geom_point(data = datos_design %>% filter(!is.na(is_a_control)),
              aes(size = is_a_control), alpha = 0.5) +  # Minimal theme, no grey background
   theme(panel.grid=element_blank(),              # No underlying grid lines
