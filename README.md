@@ -5,7 +5,7 @@ This repo contains the code needed for check experimental design data of trials
 carried out in: 
 - Palmira, Colombia
 - North cost, Colombia
-- South east Asia
+- South east, Asia
 
 ## Functions
 
